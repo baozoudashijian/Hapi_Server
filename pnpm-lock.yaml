@@ -3,10 +3,20 @@ lockfileVersion: 5.4
 specifiers:
   env2: ^2.2.2
   hapi: '16'
+  hapi-swagger: '7'
+  inert: '4'
+  joi: '13'
+  package: ^1.0.1
+  vision: '4'
 
 dependencies:
   env2: 2.2.2
   hapi: 16.7.0
+  hapi-swagger: 7.10.0_hapi@16.7.0
+  inert: 4.2.1
+  joi: 13.7.0
+  package: 1.0.1
+  vision: 4.1.1
 
 packages:
 
@@ -28,10 +38,24 @@ packages:
       hoek: 4.2.1
     dev: false
 
+  /argparse/1.0.10:
+    resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
+    dependencies:
+      sprintf-js: 1.0.3
+    dev: false
+
   /b64/3.0.3:
     resolution: {integrity: sha512-Pbeh0i6OLubPJdIdCepn8ZQHwN2MWznZHbHABSTEfQ706ie+yuxNSaPdqX1xRatT6WanaS1EazMiSg0NUW2XxQ==}
     engines: {node: '>=4.0.0'}
     deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dev: false
+
+  /boom/4.3.1:
+    resolution: {integrity: sha512-FA8ZqcHBLjyFCPns8EsFTWxARi8iKzLfl3vXS1n1O6mlUpZvjXg9E+0Ys8mh7k/s8mHVpROgeoUmz4HadhPhAQ==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
     dev: false
 
   /boom/5.2.0:
@@ -45,6 +69,10 @@ packages:
   /bourne/1.1.2:
     resolution: {integrity: sha512-b2dgVkTZhkQirNMohgC00rWfpVqEi9y5tKM1k3JvoNx05ODtfQoPPd4js9CYFQoY0IM8LAmnJulEuWv74zjUOg==}
     deprecated: This module has moved and is now available at @hapi/bourne. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+    dev: false
+
+  /call-me-maybe/1.0.2:
+    resolution: {integrity: sha512-HpX65o1Hnr9HH25ojC1YGs7HCQLq0GCOibSaWER0eNpgJ/Z1MZv2mTc7+xh6WOPxbRVcmgbv4hGU+uSQ/2xFZQ==}
     dev: false
 
   /call/4.0.2:
@@ -74,12 +102,24 @@ packages:
       joi: 10.6.0
     dev: false
 
+  /commander/2.20.3:
+    resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
+    requiresBuild: true
+    dev: false
+    optional: true
+
   /content/3.0.7:
     resolution: {integrity: sha512-LXtnSnvE+Z1Cjpa3P9gh9kb396qV4MqpfwKy777BOSF8n6nw2vAi03tHNl0/XRqZUyzVzY/+nMXOZVnEapWzdg==}
     engines: {node: '>=4.5.0'}
     deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
     dependencies:
       boom: 5.2.0
+    dev: false
+
+  /core-js/2.6.12:
+    resolution: {integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==}
+    deprecated: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+    requiresBuild: true
     dev: false
 
   /cryptiles/3.1.4:
@@ -89,9 +129,85 @@ packages:
       boom: 5.2.0
     dev: false
 
+  /debug/2.6.9:
+    resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.0.0
+    dev: false
+
+  /debug/3.2.7:
+    resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.3
+    dev: false
+
   /env2/2.2.2:
     resolution: {integrity: sha512-KHS47Smwr5AtT9RCxjsoCc+83sUI2uJIeK+VTI5MS8F0k312xzqFvbC4AyRNefPCNou7bvL7QSxmkT/h8x9rTg==}
     engines: {node: '>= 0.10.0'}
+    dev: false
+
+  /es6-promise/3.3.1:
+    resolution: {integrity: sha512-SOp9Phqvqn7jtEUxPWdWfWoLmyt2VaJ6MpvP9Comy1MceMXqE6bxvaTu4iaxpYYPzhny28Lc+M87/c2cPK6lDg==}
+    dev: false
+
+  /es6-promise/4.2.8:
+    resolution: {integrity: sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==}
+    dev: false
+
+  /esprima/4.0.1:
+    resolution: {integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==}
+    engines: {node: '>=4'}
+    hasBin: true
+    dev: false
+
+  /fast-safe-stringify/1.2.3:
+    resolution: {integrity: sha512-QJYT/i0QYoiZBQ71ivxdyTqkwKkQ0oxACXHYxH2zYHJEgzi2LsbjgvtzTbLi1SZcF190Db2YP7I7eTsU2egOlw==}
+    dev: false
+
+  /format-util/1.0.5:
+    resolution: {integrity: sha512-varLbTj0e0yVyRpqQhuWV+8hlePAgaoFRhNFj50BNjEIrw1/DphHSObtqwskVCPWNgzwPoQrZAbfa/SBiicNeg==}
+    dev: false
+
+  /handlebars/4.7.7:
+    resolution: {integrity: sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==}
+    engines: {node: '>=0.4.7'}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.8
+      neo-async: 2.6.2
+      source-map: 0.6.1
+      wordwrap: 1.0.0
+    optionalDependencies:
+      uglify-js: 3.17.4
+    dev: false
+
+  /hapi-swagger/7.10.0_hapi@16.7.0:
+    resolution: {integrity: sha512-Efo4HQx8rR43OqfU+/w/UywY5KuFUjPnXR+hykdGvIpEWBOE0Y0k1CGoK4Qt93CJhnJO+WuVN43drUR7bxDZxw==}
+    engines: {node: '>=4.0.0'}
+    peerDependencies:
+      hapi: ^14.0.0 || ^15.0.0 || ^16.0.0
+    dependencies:
+      boom: 5.2.0
+      fast-safe-stringify: 1.2.3
+      handlebars: 4.7.7
+      hapi: 16.7.0
+      hoek: 4.2.1
+      http-status: 1.6.2
+      joi: 11.4.0
+      json-schema-ref-parser: 4.1.1
+      swagger-parser: 3.4.2
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /hapi/16.7.0:
@@ -133,6 +249,35 @@ packages:
     resolution: {integrity: sha512-QLg82fGkfnJ/4iy1xZ81/9SIJiq1NGFUMGs6ParyjBZr6jW2Ufj/snDqTHixNlHdPNwN2RLVD0Pi3igeK9+JfA==}
     engines: {node: '>=4.0.0'}
     deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dev: false
+
+  /hoek/5.0.4:
+    resolution: {integrity: sha512-Alr4ZQgoMlnere5FZJsIyfIjORBqZll5POhDsF4q64dPuJR6rNxXdDxtHSQq8OXRurhmx+PWYEE8bXRROY8h0w==}
+    engines: {node: '>=8.9.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dev: false
+
+  /hoek/6.1.3:
+    resolution: {integrity: sha512-YXXAAhmF9zpQbC7LEcREFtXfGq5K1fmd+4PHkBq8NUqmzW3G+Dq10bI/i0KucLRwss3YYFQ0fSfoxBZYiGUqtQ==}
+    deprecated: This module has moved and is now available at @hapi/hoek. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+    dev: false
+
+  /http-status/1.6.2:
+    resolution: {integrity: sha512-oUExvfNckrpTpDazph7kNG8sQi5au3BeTo0idaZFXEhTaJKu7GNJCLHI0rYY2wljm548MSTM+Ljj/c6anqu2zQ==}
+    engines: {node: '>= 0.4.0'}
+    dev: false
+
+  /inert/4.2.1:
+    resolution: {integrity: sha512-qmbbZYPSzU/eOUOStPQvSjrU9IR1Q3uDtsEsVwnBQeZG43xu7Nrj6yuUrX3ice/03rv5dj/KiKB+NGCbiqH+aQ==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      ammo: 2.0.4
+      boom: 5.2.0
+      hoek: 4.2.1
+      items: 2.1.2
+      joi: 10.6.0
+      lru-cache: 4.1.5
     dev: false
 
   /iron/4.0.5:
@@ -193,6 +338,64 @@ packages:
       topo: 2.0.2
     dev: false
 
+  /joi/13.7.0:
+    resolution: {integrity: sha512-xuY5VkHfeOYK3Hdi91ulocfuFopwgbSORmIwzcwHKESQhC7w1kD5jaVSPnqDxS2I8t3RZ9omCKAxNwXN5zG1/Q==}
+    engines: {node: '>=8.9.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 5.0.4
+      isemail: 3.2.0
+      topo: 3.0.3
+    dev: false
+
+  /js-yaml/3.14.1:
+    resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==}
+    hasBin: true
+    dependencies:
+      argparse: 1.0.10
+      esprima: 4.0.1
+    dev: false
+
+  /json-schema-ref-parser/1.4.1:
+    resolution: {integrity: sha512-GdF0nCPo+cxX7/sgu0pIH4PI1uNUBZHsZOaOCrGha8rL7JoaIKYJd7iNDeqmwJZrbOwXw1g51knhz/HJdw02nA==}
+    deprecated: Please switch to @apidevtools/json-schema-ref-parser
+    dependencies:
+      call-me-maybe: 1.0.2
+      debug: 2.6.9
+      es6-promise: 3.3.1
+      js-yaml: 3.14.1
+      ono: 2.2.5
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /json-schema-ref-parser/4.1.1:
+    resolution: {integrity: sha512-lByoCHZ6H2zgb6NtsXIqtzQ+6Ji7iVqnrhWxsXLhF+gXmgu6E8+ErpDxCMR439MUG1nfMjWI2HAoM8l0XgSNhw==}
+    deprecated: Please switch to @apidevtools/json-schema-ref-parser
+    dependencies:
+      call-me-maybe: 1.0.2
+      debug: 3.2.7
+      js-yaml: 3.14.1
+      ono: 4.0.11
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /lodash.get/4.4.2:
+    resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
+    dev: false
+
+  /lodash.isequal/4.5.0:
+    resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
+    dev: false
+
+  /lru-cache/4.1.5:
+    resolution: {integrity: sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==}
+    dependencies:
+      pseudomap: 1.0.2
+      yallist: 2.1.2
+    dev: false
+
   /mime-db/1.52.0:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
     engines: {node: '>= 0.6'}
@@ -207,6 +410,22 @@ packages:
       mime-db: 1.52.0
     dev: false
 
+  /minimist/1.2.8:
+    resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+    dev: false
+
+  /ms/2.0.0:
+    resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
+    dev: false
+
+  /ms/2.1.3:
+    resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
+    dev: false
+
+  /neo-async/2.6.2:
+    resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
+    dev: false
+
   /nigel/2.0.2:
     resolution: {integrity: sha512-KzIv9fdPY3z7mQu4Y3SVW/Y5nK1k+AUpwXCVnZYNn42a+abSnG0gXsrCT55sR/lt/9sYdV+e89JqFTfNpUBeWg==}
     engines: {node: '>=4.0.0'}
@@ -214,6 +433,21 @@ packages:
     dependencies:
       hoek: 4.2.1
       vise: 2.0.2
+    dev: false
+
+  /ono/2.2.5:
+    resolution: {integrity: sha512-pi/dX/DqBA9O8FFTgdR2uuYBQoW40QIB0UW7vH1QcRpoTsYA/ANcWspzD7pFxyrs+P09/K5fKAVdr9k42twy3A==}
+    dev: false
+
+  /ono/4.0.11:
+    resolution: {integrity: sha512-jQ31cORBFE6td25deYeD80wxKBMj+zBmHTrVxnc6CKhx8gho6ipmWM5zj/oeoqioZ99yqBls9Z/9Nss7J26G2g==}
+    dependencies:
+      format-util: 1.0.5
+    dev: false
+
+  /package/1.0.1:
+    resolution: {integrity: sha512-g6xZR6CO7okjie83sIRJodgGvaXqymfE5GLhN8N2TmZGShmHc/V23hO/vWbdnuy3D81As3pfovw72gGi42l9qA==}
+    engines: {node: '>= 0.6.0'}
     dev: false
 
   /pez/2.1.5:
@@ -238,6 +472,10 @@ packages:
       joi: 10.6.0
     dev: false
 
+  /pseudomap/1.0.2:
+    resolution: {integrity: sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==}
+    dev: false
+
   /punycode/2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
     engines: {node: '>=6'}
@@ -257,6 +495,15 @@ packages:
     deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
     dependencies:
       hoek: 4.2.1
+    dev: false
+
+  /source-map/0.6.1:
+    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /sprintf-js/1.0.3:
+    resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
     dev: false
 
   /statehood/5.0.4:
@@ -286,12 +533,56 @@ packages:
       wreck: 12.5.1
     dev: false
 
+  /swagger-methods/1.0.8:
+    resolution: {integrity: sha512-G6baCwuHA+C5jf4FNOrosE4XlmGsdjbOjdBK4yuiDDj/ro9uR4Srj3OR84oQMT8F3qKp00tYNv0YN730oTHPZA==}
+    deprecated: This package is no longer being maintained.
+    dev: false
+
+  /swagger-parser/3.4.2:
+    resolution: {integrity: sha512-himpIkA50AjTvrgtz0PPbzwWoTjj3F3ye/y1PcW/514YEp1A3IhAcJFkkEu7b1zHnSIthnzxC8aTy+XZG0D+iA==}
+    dependencies:
+      call-me-maybe: 1.0.2
+      debug: 3.2.7
+      es6-promise: 4.2.8
+      json-schema-ref-parser: 1.4.1
+      ono: 4.0.11
+      swagger-methods: 1.0.8
+      swagger-schema-official: 2.0.0-bab6bed
+      z-schema: 3.25.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /swagger-schema-official/2.0.0-bab6bed:
+    resolution: {integrity: sha512-rCC0NWGKr/IJhtRuPq/t37qvZHI/mH4I4sxflVM+qgVe5Z2uOCivzWaVbuioJaB61kvm5UvB7b49E+oBY0M8jA==}
+    dev: false
+
   /topo/2.0.2:
     resolution: {integrity: sha512-QMfJ9TC5lKcmLZImOZ/BTSWJeVbay7XK2nlzvFALW3BA5OkvBnbs0poku4EsRpDMndDVnM58EU/8D3ZcoVehWg==}
     engines: {node: '>=4.0.0'}
     deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
     dependencies:
       hoek: 4.2.1
+    dev: false
+
+  /topo/3.0.3:
+    resolution: {integrity: sha512-IgpPtvD4kjrJ7CRA3ov2FhWQADwv+Tdqbsf1ZnPUSAtCJ9e1Z44MmoSGDXGk4IppoZA7jd/QRkNddlLJWlUZsQ==}
+    deprecated: This module has moved and is now available at @hapi/topo. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+    dependencies:
+      hoek: 6.1.3
+    dev: false
+
+  /uglify-js/3.17.4:
+    resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
+    engines: {node: '>=0.8.0'}
+    hasBin: true
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /validator/10.11.0:
+    resolution: {integrity: sha512-X/p3UZerAIsbBfN/IwahhYaBbY68EN/UQBWHtsbXGT5bfrH/p4NQzUCG1kF/rtKaNpnJ7jAu6NGTdSNtyNIXMw==}
+    engines: {node: '>= 0.10'}
     dev: false
 
   /vise/2.0.2:
@@ -302,6 +593,21 @@ packages:
       hoek: 4.2.1
     dev: false
 
+  /vision/4.1.1:
+    resolution: {integrity: sha512-4A89h2TOHel9Q7atckpL/vs9p+Jks3EZw+Ml00sfBuN/szJtBDna98DUMq6EvxYR8IXmIsUqJDZOvoHdbTtzAQ==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 4.3.1
+      hoek: 4.2.1
+      items: 2.1.2
+      joi: 10.6.0
+    dev: false
+
+  /wordwrap/1.0.0:
+    resolution: {integrity: sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==}
+    dev: false
+
   /wreck/12.5.1:
     resolution: {integrity: sha512-l5DUGrc+yDyIflpty1x9XuMj1ehVjC/dTbF3/BasOO77xk0EdEa4M/DuOY8W88MQDAD0fEDqyjc8bkIMHd2E9A==}
     engines: {node: '>=4.0.0'}
@@ -309,4 +615,20 @@ packages:
     dependencies:
       boom: 5.2.0
       hoek: 4.2.1
+    dev: false
+
+  /yallist/2.1.2:
+    resolution: {integrity: sha512-ncTzHV7NvsQZkYe1DW7cbDLm0YpzHmZF5r/iyP3ZnQtMiJ+pjzisCiMNI+Sj+xQF5pXhSHxSB3uDbsBTzY/c2A==}
+    dev: false
+
+  /z-schema/3.25.1:
+    resolution: {integrity: sha512-7tDlwhrBG+oYFdXNOjILSurpfQyuVgkRe3hB2q8TEssamDHB7BbLWYkYO98nTn0FibfdFroFKDjndbgufAgS/Q==}
+    hasBin: true
+    dependencies:
+      core-js: 2.6.12
+      lodash.get: 4.4.2
+      lodash.isequal: 4.5.0
+      validator: 10.11.0
+    optionalDependencies:
+      commander: 2.20.3
     dev: false
