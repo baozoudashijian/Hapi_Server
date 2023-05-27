@@ -1,0 +1,305 @@
+lockfileVersion: 5.4
+
+specifiers:
+  hapi: '16'
+
+dependencies:
+  hapi: 16.7.0
+
+packages:
+
+  /accept/2.1.4:
+    resolution: {integrity: sha512-nD5Js+vxFQPKbWhp2cjknHS0XMbtW7gvzWZn7r/EEA01WYfitHMgv8SB696J8K3GlNld+0EKpH/0WDFNfJUijQ==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 5.2.0
+      hoek: 4.2.1
+    dev: false
+
+  /ammo/2.0.4:
+    resolution: {integrity: sha512-0FBaPg1Uk6tKQb6s0PHg83pSgk8Cx12TrVrR3Yn8Rq5K5WslMOq9vwhbXyzcN8Ti1zCRR9hpCpuIyX4RR4Ej1w==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 5.2.0
+      hoek: 4.2.1
+    dev: false
+
+  /b64/3.0.3:
+    resolution: {integrity: sha512-Pbeh0i6OLubPJdIdCepn8ZQHwN2MWznZHbHABSTEfQ706ie+yuxNSaPdqX1xRatT6WanaS1EazMiSg0NUW2XxQ==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dev: false
+
+  /boom/5.2.0:
+    resolution: {integrity: sha512-Z5BTk6ZRe4tXXQlkqftmsAUANpXmuwlsF5Oov8ThoMbQRzdGTA1ngYRW160GexgOgjsFOKJz0LYhoNi+2AMBUw==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+    dev: false
+
+  /bourne/1.1.2:
+    resolution: {integrity: sha512-b2dgVkTZhkQirNMohgC00rWfpVqEi9y5tKM1k3JvoNx05ODtfQoPPd4js9CYFQoY0IM8LAmnJulEuWv74zjUOg==}
+    deprecated: This module has moved and is now available at @hapi/bourne. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+    dev: false
+
+  /call/4.0.2:
+    resolution: {integrity: sha512-RIanwfIQAJuF9Ms0gNpV83RlLn6AqYpcUWe6S8vdP25Z5HXnAefOx9jCo1pF/ov0gxyIPfSCvjdIXl0iCw/bkA==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 5.2.0
+      hoek: 4.2.1
+    dev: false
+
+  /catbox-memory/2.0.4:
+    resolution: {integrity: sha512-PlVLh6M+Z+anAKHllMUkIIgs5f5nX5qMwz8gnUQykY+q6BI+fKTY511pYVhD7j8506XQPMFMtpyoS8TKbP1GYg==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+    dev: false
+
+  /catbox/7.1.5:
+    resolution: {integrity: sha512-4fui5lELzqZ+9cnaAP/BcqXTH6LvWLBRtFhJ0I4FfgfXiSaZcf6k9m9dqOyChiTxNYtvLk7ZMYSf7ahMq3bf5A==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 5.2.0
+      hoek: 4.2.1
+      joi: 10.6.0
+    dev: false
+
+  /content/3.0.7:
+    resolution: {integrity: sha512-LXtnSnvE+Z1Cjpa3P9gh9kb396qV4MqpfwKy777BOSF8n6nw2vAi03tHNl0/XRqZUyzVzY/+nMXOZVnEapWzdg==}
+    engines: {node: '>=4.5.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 5.2.0
+    dev: false
+
+  /cryptiles/3.1.4:
+    resolution: {integrity: sha512-8I1sgZHfVwcSOY6mSGpVU3lw/GSIZvusg8dD2+OGehCJpOhQRLNcH0qb9upQnOH4XhgxxFJSg6E2kx95deb1Tw==}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 5.2.0
+    dev: false
+
+  /hapi/16.7.0:
+    resolution: {integrity: sha512-UeMX1LMWmHEIgMlwZGK/3lhI7X0VRvOioVply0Y9qF+/O5woGdQzNB8ZmDnLOBjnB6bdWWHyo5DEamuCsE1vmg==}
+    deprecated: This version contains severe security issues and defects and should not be used! Please upgrade to the latest version of @hapi/hapi or consider a commercial license (https://github.com/hapijs/hapi/issues/4114)
+    dependencies:
+      accept: 2.1.4
+      ammo: 2.0.4
+      boom: 5.2.0
+      call: 4.0.2
+      catbox: 7.1.5
+      catbox-memory: 2.0.4
+      cryptiles: 3.1.4
+      heavy: 4.0.4
+      hoek: 4.2.1
+      iron: 4.0.5
+      items: 2.1.2
+      joi: 11.4.0
+      mimos: 3.0.3
+      podium: 1.3.0
+      shot: 3.4.2
+      somever: 1.0.1
+      statehood: 5.0.4
+      subtext: 5.0.1
+      topo: 2.0.2
+    dev: false
+
+  /heavy/4.0.4:
+    resolution: {integrity: sha512-8JYatUE+yVxhld/9C+AszeLr0Wh2hGHRkPyyl+xakVLF7Ev1SsH1Kp1iNl06C8LrMlwYBholBqW2URQCn39zuw==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 5.2.0
+      hoek: 4.2.1
+      joi: 10.6.0
+    dev: false
+
+  /hoek/4.2.1:
+    resolution: {integrity: sha512-QLg82fGkfnJ/4iy1xZ81/9SIJiq1NGFUMGs6ParyjBZr6jW2Ufj/snDqTHixNlHdPNwN2RLVD0Pi3igeK9+JfA==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dev: false
+
+  /iron/4.0.5:
+    resolution: {integrity: sha512-rWkobJjk5IYW5AYR6LkxtmnGF8BzOqdm/mQMP4PNi35unXVxKa4v1TgpleyYRpKuBj0cTQUPQLufLyWKnE5hhw==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 5.2.0
+      cryptiles: 3.1.4
+      hoek: 4.2.1
+    dev: false
+
+  /isemail/2.2.1:
+    resolution: {integrity: sha512-LPjFxaTatluwGAJlGe4FtRdzg0a9KlXrahHoHAR4HwRNf90Ttwi6sOQ9zj+EoCPmk9yyK+WFUqkm0imUo8UJbw==}
+    engines: {node: '>=4.0.0'}
+    dev: false
+
+  /isemail/3.2.0:
+    resolution: {integrity: sha512-zKqkK+O+dGqevc93KNsbZ/TqTUFd46MwWjYOoMrjIMZ51eU7DtQG3Wmd9SQQT7i7RVnuTPEiYEWHU3MSbxC1Tg==}
+    engines: {node: '>=4.0.0'}
+    dependencies:
+      punycode: 2.3.0
+    dev: false
+
+  /items/2.1.2:
+    resolution: {integrity: sha512-kezcEqgB97BGeZZYtX/MA8AG410ptURstvnz5RAgyFZ8wQFPMxHY8GpTq+/ZHKT3frSlIthUq7EvLt9xn3TvXg==}
+    deprecated: This module has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version of hapi to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dev: false
+
+  /joi/10.6.0:
+    resolution: {integrity: sha512-hBF3LcqyAid+9X/pwg+eXjD2QBZI5eXnBFJYaAkH4SK3mp9QSRiiQnDYlmlz5pccMvnLcJRS4whhDOTCkmsAdQ==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+      isemail: 2.2.1
+      items: 2.1.2
+      topo: 2.0.2
+    dev: false
+
+  /joi/11.4.0:
+    resolution: {integrity: sha512-O7Uw+w/zEWgbL6OcHbyACKSj0PkQeUgmehdoXVSxt92QFCq4+1390Rwh5moI2K/OgC7D8RHRZqHZxT2husMJHA==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+      isemail: 3.2.0
+      topo: 2.0.2
+    dev: false
+
+  /joi/12.0.0:
+    resolution: {integrity: sha512-z0FNlV4NGgjQN1fdtHYXf5kmgludM65fG/JlXzU6+rwkt9U5UWuXVYnXa2FpK0u6+qBuCmrm5byPNuiiddAHvQ==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+      isemail: 3.2.0
+      topo: 2.0.2
+    dev: false
+
+  /mime-db/1.52.0:
+    resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /mimos/3.0.3:
+    resolution: {integrity: sha512-BfYn3Kdlfii+Zr5P/1dvUDxCvy9qOeDzsKaoZ1ZbkfUqP001+OPdHsdWQ/ff4wbLGFWCsxrygX9macR2xc7CMg==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+      mime-db: 1.52.0
+    dev: false
+
+  /nigel/2.0.2:
+    resolution: {integrity: sha512-KzIv9fdPY3z7mQu4Y3SVW/Y5nK1k+AUpwXCVnZYNn42a+abSnG0gXsrCT55sR/lt/9sYdV+e89JqFTfNpUBeWg==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+      vise: 2.0.2
+    dev: false
+
+  /pez/2.1.5:
+    resolution: {integrity: sha512-XHZL8ZBoxZGrprJAG83pvzo7tJPKmyfJVeyW0NFi6e4+J7C92AjeliYZwElvtdakOg6cEvLtCTfnt3n9XnpEmg==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      b64: 3.0.3
+      boom: 5.2.0
+      content: 3.0.7
+      hoek: 4.2.1
+      nigel: 2.0.2
+    dev: false
+
+  /podium/1.3.0:
+    resolution: {integrity: sha512-ZIujqk1pv8bRZNVxwwwq0BhXilZ2udycQT3Kp8ah3f3TcTmVg7ILJsv/oLf47gRa2qeiP584lNq+pfvS9U3aow==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+      items: 2.1.2
+      joi: 10.6.0
+    dev: false
+
+  /punycode/2.3.0:
+    resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
+    engines: {node: '>=6'}
+    dev: false
+
+  /shot/3.4.2:
+    resolution: {integrity: sha512-d/mcXYzS+5mKp6VRIiQlGM+2QcX1Gb1tRAO52o9MmVSSMmv+IO0UUBa+FFU+QaeOgnkv1z3c9VsjwO9ZEdOJUA==}
+    engines: {node: '>=4.5.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+      joi: 10.6.0
+    dev: false
+
+  /somever/1.0.1:
+    resolution: {integrity: sha512-PCDMBcega4n7wuBUKmkiXidF3cOwtHHGg2qJYl0Rkw7StZqORoCgqce7HUuWNta/NAiQhwLDezNnTANxEWPCGA==}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+    dev: false
+
+  /statehood/5.0.4:
+    resolution: {integrity: sha512-6/feFLqqHylvA/dHwJA0DgXvbEcKgbhRUeljsuu6+cIr8PO88nax7Wc+celZlPTncqT2arsxXL8P329Q1yfe9Q==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 5.2.0
+      bourne: 1.1.2
+      cryptiles: 3.1.4
+      hoek: 4.2.1
+      iron: 4.0.5
+      items: 2.1.2
+      joi: 12.0.0
+    dev: false
+
+  /subtext/5.0.1:
+    resolution: {integrity: sha512-zH/jaUKJ/bkrTpEe3zuTFIRnqAwv5xcGpXA2JaxEc30KRAT4k78jZnRqM45snjBSZAuvpI8chRUh1VZprcUVfw==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 5.2.0
+      bourne: 1.1.2
+      content: 3.0.7
+      hoek: 4.2.1
+      pez: 2.1.5
+      wreck: 12.5.1
+    dev: false
+
+  /topo/2.0.2:
+    resolution: {integrity: sha512-QMfJ9TC5lKcmLZImOZ/BTSWJeVbay7XK2nlzvFALW3BA5OkvBnbs0poku4EsRpDMndDVnM58EU/8D3ZcoVehWg==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+    dev: false
+
+  /vise/2.0.2:
+    resolution: {integrity: sha512-CqqBsJC+eoqmYggmN9BEXg2xHju1fC0laeaEDDfIt7QxOtgKoXere+BuKqpmNrNmRUQMdjlgQU9ng9QAnDSvpA==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      hoek: 4.2.1
+    dev: false
+
+  /wreck/12.5.1:
+    resolution: {integrity: sha512-l5DUGrc+yDyIflpty1x9XuMj1ehVjC/dTbF3/BasOO77xk0EdEa4M/DuOY8W88MQDAD0fEDqyjc8bkIMHd2E9A==}
+    engines: {node: '>=4.0.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+    dependencies:
+      boom: 5.2.0
+      hoek: 4.2.1
+    dev: false
