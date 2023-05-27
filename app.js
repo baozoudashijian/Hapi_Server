@@ -1,21 +1,17 @@
 const Hapi = require('hapi')
+const config = require('./config')
+const routesHelloHapi = require('./routes/hello-world')
 
 const server = new Hapi.Server()
 
 server.connection({
-    port: 3000,
-    host: '127.0.0.1'
+    port: config.port,
+    host: config.host
 })
 
 const init = async () => {
     server.route([
-        {
-            method: 'GET',
-            path: '/',
-            handler: (request, reply) => {
-                reply('hello hapi')
-            }
-        }
+        ...routesHelloHapi
     ])
     await server.start()
     console.log('server is running')
