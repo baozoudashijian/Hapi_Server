@@ -13,7 +13,7 @@ module.exports = {
     database: env.MYSQL_DB_NAME,
     host: env.MYSQL_HOST,
     port: env.MYSQL_PORT,
-    "dialect": "mysql",
+    dialect: "mysql"
   },
   production: {
     username: env.MYSQL_USERNAME,
